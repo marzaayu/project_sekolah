@@ -1,0 +1,164 @@
+body {
+margin:0;
+background:#00D4FF;
+}
+
+a{text-decoration:none;
+}
+
+#wrapper {
+width:1366;
+height:100%;
+background:url(bg.png);
+background-repeat:no-repeat;
+margin:auto;
+}
+#wrapper2{
+width:800;
+height:100%;
+background:#B3F0FD;
+margin:auto;
+}
+#navbar{
+width:800;
+height:50;
+background:#B3F0FD;
+}
+
+#navbar1{
+padding:10;
+display:inline;
+}
+#navbar1:hover{
+-webkit-transform: translateY(-5px);
+-ms-transform: translateY(-5px);
+transform: translateY(-5px);
+}
+
+#Dokter{
+width:250;
+height:294;
+float:right;
+margin-top:187px;
+margin-right:-200px;
+background-image:url(dokter.png);
+}
+
+#logo{
+width:250px;
+height:155px;
+background-image:url(logo.png);
+float:right;
+}
+
+#kotak{
+width:750;
+height:400;
+border-radius:10px;
+margin-left:300;
+z-index:-1;
+}
+
+#login{
+width:80%;
+padding-left:200;
+padding-top:150;
+}
+.input{
+width:300;
+padding-top:10;
+padding-left:32;
+padding-bottom:10;
+margin-top:-5;
+font-size:12pt;
+background:#FFFFFF;
+border:solid 1px #ccc;
+}
+
+.input:hover {
+	background:#b1d6f3;
+	box-shadow:0 0 8px 0 #b1d6f3 inset;
+	}
+
+.input:action {
+	background:#b1d6f3;
+	box-shadow:0 0 2px 0 #b1d6f3 inset;
+	}
+.submit{
+width:150;
+padding-top:10;
+padding-bottom:10;
+font-size:12pt;
+font-family:Century Gothic;
+color:#ffffff;
+background:#c0d4ed;
+border:solid 2px #4bc6f3;
+border-radius:10px;
+border:solid 1px 4bc6f3;
+}
+#kotak1{
+width:800;
+height:400;
+background:#FFFFFF;
+margin-top:100;
+}
+.daftar{
+width:300;
+padding-top:10;
+padding-left:30;
+padding-bottom:10;
+margin-top:10;
+font-size:12pt;
+background:#FFFFFF;
+border:solid 1px #ccc;
+}
+.area{
+width:300;
+padding-top:10;
+padding-left:30;
+padding-bottom:10;
+margin-top:10;
+font-size:12pt;
+background:#FFFFFF;
+border:solid 1px #ccc;
+}
+#poto{
+width:550;
+height:425;
+background:url(poto.png);
+margin-left:300;
+margin-top:-60;
+}
+#logoku{
+width:250;
+height:153;
+background:url(logoku.png);
+margin-left:500;
+}
+#data{
+width:800;
+height:400;
+background:#B3F0FD;
+overflow:auto;
+}
+.cari{
+width:80;
+padding-top:7;
+padding-bottom:8;
+font-size:12pt;
+font-family:Century Gothic;
+color:#ffffff;
+background:#c0d4ed;
+border:solid 2px #4bc6f3;
+border-radius:10px;
+border:solid 1px 4bc6f3;
+margin-left:340;
+margin-top:-40;
+}
+#cari1{
+width:300;
+height:300;
+background:#B3F0FD;
+margin-top:-400;
+margin-left:35;
+}
